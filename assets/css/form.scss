@@ -1,0 +1,10 @@
+@import 'variables';
+
+input {
+  transition: 0.2s ease-in-out border-color;
+
+  &.error {
+    border-color: $secoundary-highlight !important;
+    transition: 0.3s ease-in-out border-color;
+  }
+}

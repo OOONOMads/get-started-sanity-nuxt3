@@ -3,14 +3,16 @@
   "scripts": {
     "dev": "nuxi dev",
     "start": "nuxi dev",
-    "build": "nuxi build",
-    "post-update": "yarn upgrade --latest"
+    "build": "nuxi build"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.0.0-beta.11",
+    "nuxt": "^3.0.0"
   },
   "dependencies": {
+    "@nuxtjs/sanity": "^1.6.0",
     "autoprefixer": "10.4.2",
-    "nuxt": "3.0.0"
-  },
-  "keywords": [],
-  "name": "get-started-with-sanity-nuxt-starter",
-  "description": ""
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0"
+  }
 }

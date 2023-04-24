@@ -1,0 +1,303 @@
+@import '/assets/css/variables.scss';
+/*THIN*/
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-Thin.otf) format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-ThinItalic.otf) format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+/*EXTRA LIGHT*/
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-Extralight.otf) format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-ExtralightItalic.otf)
+      format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+/*LIGHT*/
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-Light.otf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-ExtralightItalic.otf)
+      format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/*REGULAR*/
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-Regular.otf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-Italic.otf) format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/*MEDIUM*/
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-Medium.otf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-MediumItalic.otf)
+      format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/*DEMIBOLD*/
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-Demibold.otf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-DemiboldItalic.otf)
+      format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/*BOLD*/
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-Bold.otf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-BoldItalic.otf) format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*EXTRA BOLD*/
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-ExtraboldItalic.otf)
+      format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-Extrabold.otf) format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+/*BLACK*/
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-Black.otf) format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ooono';
+  src: local('ItalianPlateNo2'),
+    url(/assets/fonts/ItalianPlateNo2Expanded-BlackItalic.otf)
+      format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* baseline font set */
+html {
+  font-family: 'ooono';
+}
+
+.text {
+  font-weight: 500;
+
+  &.highlight {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  &.bold {
+    font-weight: 700;
+  }
+
+  &.italic {
+    font-style: italic;
+  }
+
+  &.tiny {
+    font-size: 11px;
+  }
+
+  &.small {
+    font-size: 13px;
+  }
+
+  &.regular {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &.large {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  &.xlarge {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+  }
+
+  &.xxlarge {
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 43px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+li {
+  color: $black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 100px;
+  line-height: 100px;
+  @media (max-width: 1550px) {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  @media (max-width: 850px) {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+h2 {
+  font-size: 75px;
+  line-height: 75px;
+  @media (max-width: 1550px) {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+h3 {
+  font-size: 62px;
+  line-height: 62px;
+  @media (max-width: 1550px) {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+h4 {
+  font-size: 32px;
+  line-height: 32px;
+  @media (max-width: 1550px) {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+h5 {
+  font-size: 24px;
+  line-height: 24px;
+  @media (max-width: 1550px) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  @media (max-width: 870px) {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+h6 {
+  font-size: 16px;
+  line-height: 16px;
+  @media (max-width: 870px) {
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+}
+
+.bigIcon {
+  svg {
+    width: 32px;
+    height: 32px;
+  }
+}

@@ -1,0 +1,68 @@
+@import "~/assets/css/variables.scss";
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: $grey-lightest;
+  width: 100%;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    flex-direction: column;
+
+    &.row {
+      flex-direction: row;
+
+      header {
+        max-width: 350px;
+      }
+    }
+  }
+
+  .baseicon {
+    width: 16px;
+    height: 16px;
+    display: block;
+    color: $black;
+    transition: 0.2s ease-in-out color;
+
+    &:hover {
+      color: $primary-color--c01;
+      transition: 0.3s ease-in-out color;
+    }
+    svg {
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    &.small {
+      width: 18px;
+      height: 18px;
+    }
+
+    &.regular {
+      width: 24px;
+      height: 24px;
+    }
+
+    &.large {
+      width: 32px;
+      height: 32px;
+    }
+
+    &.xlarge {
+      width: 38px;
+      height: 38px;
+    }
+  }
+}

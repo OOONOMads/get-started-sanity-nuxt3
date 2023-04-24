@@ -1,0 +1,57 @@
+html {
+  --primary-color--c01: #0032ff;
+  --primary-color--c02: #0028cc;
+  --primary-color--c03: #001e99;
+  --primary-color--c04: #001466;
+
+  --white-color: #fff;
+  --off-white-color: #fafafa;
+  --grey-lightest-color: #f0f0f0;
+  --grey-light-color: #e0e0e0;
+  --grey-medium-color: #bbbbbb;
+  --dark-color: #5a5a5a;
+  --black-color: #1e1e1e;
+}
+
+$white: var(--white-color);
+$off-white: var(--off-white-color);
+$grey-lightest: var(--grey-lightest-color);
+$grey-light: var(--grey-light-color);
+$grey-medium: var(--grey-medium-color);
+$dark: var(--dark-color);
+$black: var(--black-color);
+
+$primary-color--c02: var(--primary-color--c02);
+$primary-color--c03: var(--primary-color--c03);
+$primary-color--c04: var(--primary-color--c04);
+$primary-color--c01: var(--primary-color--c01);
+
+$secoundary-color-c01: #ff9ee2;
+$secoundary-color-c02: #ff6bd3;
+$secoundary-color-c03: #ff38c4;
+$secoundary-color-c04: #ff05b4;
+
+$tertiary-color-c01: #00ff9e;
+$tertiary-color-c02: #00cc7e;
+$tertiary-color-c03: #00995f;
+$tertiary-color-c04: #00663f;
+
+$primary-highlight: #27c966;
+$secoundary-highlight: #ff460c;
+$tertiary-highlight: #f7c273;
+
+/*font sizez*/
+$tiny: 11px;
+$small: 13px;
+$regular: 16px;
+$large: 24px;
+$xlarge: 32px;
+$xxlarge: 53px;
+$xxxlarge: 100px;
+
+/* General assigments */
+$border-radius: 8px;
+$gap-spacing: 25px;
+$standard-spacing: 25px;
+$standard-spacing--half: 12.5px;
+$standard-spacing--double: 50px;
